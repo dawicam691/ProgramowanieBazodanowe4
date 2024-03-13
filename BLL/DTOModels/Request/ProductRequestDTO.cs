@@ -9,7 +9,7 @@ namespace BLL.DTOModels.Request
 {
     public class ProductRequestDTO
     {
-        //public int Id { get; init; }
+        public int Id { get; init; }
         public string Name { get; init; }
         public double Price { get; init; }
         //public string Image { get; init; }

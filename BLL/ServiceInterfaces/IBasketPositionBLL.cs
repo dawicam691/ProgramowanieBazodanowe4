@@ -10,9 +10,9 @@ namespace BLL.ServiceInterfaces
 {
     public interface IBasketPositionBLL
     {
-        public BasketPositionResponseDTO update(BasketPositionRequestDTO basketPositionRequestDTO);
-        public BasketPositionResponseDTO add(BasketPositionRequestDTO basketPositionRequestDTO);
-        public BasketPositionResponseDTO delete(BasketPositionRequestDTO basketPositionRequestDTO);
+        public void update(BasketPositionRequestDTO basketPositionRequestDTO);
+        public void add(BasketPositionRequestDTO basketPositionRequestDTO);
+        public void delete(int id);
 
     }
 }

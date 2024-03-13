@@ -10,5 +10,6 @@ namespace Model
         public User? User { get; set; }
         public DateTime Date { get; set; }
         public List<OrderPosition>? Positions { get; set; }
+        public bool isPaid { get; set; }
     }
 }

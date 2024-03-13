@@ -11,7 +11,7 @@ namespace BLL.ServiceInterfaces
     public interface IOredrBLL
     {
         public OrderResponseDTO get(OrderRequestDTO orderRequestDTO);
-        public OrderResponseDTO pay(OrderRequestDTO orderRequestDTO);
+        public void pay(OrderRequestDTO orderRequestDTO);
         public List<OrderResponseDTO> getOrders(
             ProductSortingEntityDTO sortingEntityBLL = ProductSortingEntityDTO.NULL, 
             SortingTypeDTO sortingType = SortingTypeDTO.ASC, 

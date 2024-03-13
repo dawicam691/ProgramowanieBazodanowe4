@@ -10,5 +10,8 @@ namespace Model
         public Order? Order { get; set; }
         public int Amount { get; set; }
         public double Price { get; set; }
+        public int? ProductId { get; set; }
+        [ForeignKey(nameof(ProductId))]
+        public Product? Product { get; set; }
     }
 }

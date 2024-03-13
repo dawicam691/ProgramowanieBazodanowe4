@@ -9,7 +9,7 @@ namespace BLL.DTOModels.Request
 {
     public class BasketPositionRequestDTO
     {
-        //public int Id { get; init; }
+        public int Id { get; init; }
         //public int ProductFilteringID {  get; init; }
         //public ProductRequestDTO? Product { get; init; }
         public int productId { get; init; }

@@ -17,10 +17,10 @@ namespace BLL.ServiceInterfaces
             string filterinfContent = null, 
             bool activeOnly = true);
 
-        public ProductResponseDTO add(ProductRequestDTO productRequestDTO);
-        public ProductResponseDTO delete(int id);
-        public ProductResponseDTO update(ProductRequestDTO productRequestDTO);
-        public ProductResponseDTO activate(int id);
+        public void add(ProductRequestDTO productRequestDTO);
+        public void delete(int id);
+        public void update(ProductRequestDTO productRequestDTO);
+        public void activate(int id);
 
     }
 }
