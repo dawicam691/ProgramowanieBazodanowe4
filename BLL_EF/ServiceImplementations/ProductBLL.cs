@@ -49,7 +49,24 @@ namespace BLL_EF.ServiceImplementations
 
         public void delete(int id)
         {
-            context.Products.Remove(context.Products.Where(x => x.Id == id).First());
+            List<OrderPosition> OrderPositions = context.OrderPositions.Where(x => x.ProductId == id).ToList();
+            List<Order> orders = new List<Order>();
+            foreach (OrderPosition orderPosition in OrderPositions)
+            {
+                orders.AddRange(context.Orders.Where(x => x.Id == orderPosition.OrderId).Where(x => x.isPaid == false));
+            }
+            if (orders.Count <= 0)
+            {
+                Product product = context.Products.Where(x => x.Id == id).First();
+                product.IsActive = false;
+                context.Products.Update(product);
+                context.SaveChanges();
+            }
+            if (OrderPositions.Count <=0)
+            {
+                context.Products.Remove(context.Products.Where(x => x.Id == id).First());
+                context.SaveChanges();
+            }
         }
 
         public List<ProductResponseDTO> get(ProductSortingEntityDTO sortingEntityDTO = ProductSortingEntityDTO.NULL, SortingTypeDTO sortingType = SortingTypeDTO.ASC, ProductFilteringDTO productFilteringDTO = ProductFilteringDTO.NULL, string filterinfContent = null, bool activeOnly = true)

@@ -2522,23 +2522,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\student\\.nuget\\packages\\": {},
+    "C:\\Users\\Dawid\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\student\\Desktop\\campr\\lab2\\BLL_EF\\BLL_EF.csproj",
+      "projectUniqueName": "C:\\Users\\Dawid\\Desktop\\Programowanie bazodanowe\\inne\\lab3\\BLL_EF\\BLL_EF.csproj",
       "projectName": "BLL_EF",
-      "projectPath": "C:\\Users\\student\\Desktop\\campr\\lab2\\BLL_EF\\BLL_EF.csproj",
-      "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\student\\Desktop\\campr\\lab2\\BLL_EF\\obj\\",
+      "projectPath": "C:\\Users\\Dawid\\Desktop\\Programowanie bazodanowe\\inne\\lab3\\BLL_EF\\BLL_EF.csproj",
+      "packagesPath": "C:\\Users\\Dawid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dawid\\Desktop\\Programowanie bazodanowe\\inne\\lab3\\BLL_EF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dawid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2554,17 +2554,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\student\\Desktop\\campr\\lab2\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\student\\Desktop\\campr\\lab2\\BLL\\BLL.csproj"
+            "C:\\Users\\Dawid\\Desktop\\Programowanie bazodanowe\\inne\\lab3\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\Dawid\\Desktop\\Programowanie bazodanowe\\inne\\lab3\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\student\\Desktop\\campr\\lab2\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\student\\Desktop\\campr\\lab2\\DAL\\DAL.csproj"
+            "C:\\Users\\Dawid\\Desktop\\Programowanie bazodanowe\\inne\\lab3\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\Dawid\\Desktop\\Programowanie bazodanowe\\inne\\lab3\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\student\\Desktop\\campr\\lab2\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\student\\Desktop\\campr\\lab2\\Model\\Model.csproj"
+            "C:\\Users\\Dawid\\Desktop\\Programowanie bazodanowe\\inne\\lab3\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\Dawid\\Desktop\\Programowanie bazodanowe\\inne\\lab3\\Model\\Model.csproj"
             },
-            "C:\\Users\\student\\Desktop\\campr\\lab2\\WebApi2\\WebApi2.csproj": {
-              "projectPath": "C:\\Users\\student\\Desktop\\campr\\lab2\\WebApi2\\WebApi2.csproj"
+            "C:\\Users\\Dawid\\Desktop\\Programowanie bazodanowe\\inne\\lab3\\WebApi2\\WebApi2.csproj": {
+              "projectPath": "C:\\Users\\Dawid\\Desktop\\Programowanie bazodanowe\\inne\\lab3\\WebApi2\\WebApi2.csproj"
             }
           }
         }
@@ -2616,7 +2616,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
